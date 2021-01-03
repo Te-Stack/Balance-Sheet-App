@@ -1,0 +1,18 @@
+{
+  "name": "balance-sheet",
+  "version": "1.0.0",
+  "description": "A Balance Sheet App That can used by a large Scale Company or Small Scale Company which used Vanilla Js in its frontend and stores its data in mongodb",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Quincy Oghenetejiri",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.9",
+    "nodemon": "^2.0.6"
+  }
+}
