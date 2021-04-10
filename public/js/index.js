@@ -124,3 +124,4 @@ var globalView = (function(b,d){
 })(balanceView,designView)
 
 globalView.init()
+

@@ -15,6 +15,8 @@ dotenv.config()
 
 // Middlewares
 app.use(cors())
+//Setting Static
+app.use(express.static('public'))
 // Body Parsers 
 app.use(express.json())
 // Routes 
@@ -34,7 +36,7 @@ mongoose.connect(
 )
 
 
-const port = 4000 || process.env.PORT
+const port = process.env.PORT || 4000
 
 
 app.listen(port,()=>{
