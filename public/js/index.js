@@ -71,7 +71,7 @@ var designView = (function(){
             var ourHTML,ourNewHTML,element,htmlObject
             if(transaction_type === "income"){
                 element = classlinks.incomeRoom
-                ourHTML = '<section class="entry-section"><div class="container"><div class="row"><div class="col-6"><h4 class="text-success">Income</h4><div class="income-table" id="%id%"><div class="detail-container"><span class="my-description">%description%</span> <span class="my-amount">%amount%</span></div></div></div><div class="col-6"><h4 class="text-danger">Expenses</h4><div class="expenses-table"><div class="detail-container"><span class="my-description"></span> <span class="my-amount"></span></div></div></div></div></div></section>'
+                ourHTML = '<section class="entry-section"><div class="container"><div class="row"><div class="col-6"><h4 class="text-success">Income</h4><div class="income-table" id="%id%"><div class="detail-container"><span class="my-description">%description%</span> <span class="my-amount">%amount%</span></div></div></div></section>'
             } else if (transaction_type === "expenses"){
                 element = classlinks.expenseRoom
                 ourHTML = '<section class="entry-section"><div class="container"><div class="row"><div class="col-6"><h4 class="text-success">Income</h4><div class="income-table" ><div class="detail-container"><span class="my-description"></span> <span class="my-amount"></span></div></div></div><div class="col-6"><h4 class="text-danger">Expenses</h4><div class="expenses-table" id="%id%"><div class="detail-container"><span class="my-description">%description%</span> <span class="my-amount">%amount%</span></div></div></div></div></div></section>'
